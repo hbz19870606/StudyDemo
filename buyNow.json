@@ -1,0 +1,37 @@
+{
+	"data": {
+		"canBuyMax": 199000,
+		"holderInfo": {
+			"id": "47ED4B86-95C9-4A3F-AD44-F110B1BDBEB4",
+			"name": null,
+			"idNumber": null,
+			"mobile": "18610795682",
+			"bankCardNo": null,
+			"email": null,
+			"address": null,
+			"izBoundLLCard": false
+		},
+		"cardBinDesc": "",
+		"evaluateInfo": {
+			"evaluateResult": null,
+			"evaluateId": null
+		},
+		"productInfo": {
+			"productId": "100101003",
+			"fengInsName": "凤弘季度盈",
+			"insName": "弘康易理财年金保险（投资连结型）",
+			"institutionService": ["北京市", "河南省"],
+			"insProductUnit": 1000,
+			"insSingleBuyLimit": 199,
+			"moContract": [{
+				"contractName": "产品合同",
+				"contractUrl": "http://img.fengjr.com/upload/file/2016/3/25/FENGJR-DFD5DF0C47974617BB6077AB1D9ACAB9.pdf"
+			}],
+			"evaluateBearType": ["保守型", "稳健型", "进取型", "风险回避型"],
+			"mobileEvaluateBearDetail": "http://img.fengjr.com/upload/file/2016/3/29/FENGJR-8B135505342A466B9B93033A5E572734.png"
+		},
+		"userAddressDTO": null
+	},
+	"error": null,
+	"success": true
+}
