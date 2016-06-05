@@ -3,3 +3,5 @@ case ====   http://casatwy.com/iOS-Modulization.html
 LDBusMediator =====   http://ios.jobbole.com/85445/
 
 逆向工程，微信自动抢红包：http://ios.jobbole.com/84468/
+
+app性能分析方法： http://ios.jobbole.com/84380/
