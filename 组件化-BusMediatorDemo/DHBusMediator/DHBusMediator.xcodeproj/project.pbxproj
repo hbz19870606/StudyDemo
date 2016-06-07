@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB25D9BF1D05798D0046B56B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D9BE1D05798D0046B56B /* main.m */; };
+		FB25D9C21D05798D0046B56B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D9C11D05798D0046B56B /* AppDelegate.m */; };
+		FB25D9C51D05798D0046B56B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D9C41D05798D0046B56B /* ViewController.m */; };
+		FB25D9C81D05798D0046B56B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB25D9C61D05798D0046B56B /* Main.storyboard */; };
+		FB25D9CA1D05798D0046B56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB25D9C91D05798D0046B56B /* Assets.xcassets */; };
+		FB25D9CD1D05798D0046B56B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB25D9CB1D05798D0046B56B /* LaunchScreen.storyboard */; };
+		FB25D9D81D05798D0046B56B /* DHBusMediatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D9D71D05798D0046B56B /* DHBusMediatorTests.m */; };
+		FB25D9E31D05798D0046B56B /* DHBusMediatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D9E21D05798D0046B56B /* DHBusMediatorUITests.m */; };
+		FB25D9F41D05805A0046B56B /* DHBusMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D9F31D05805A0046B56B /* DHBusMediator.m */; };
+		FB8CD94F1D06D21100C74791 /* DemoModuleAItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8CD94E1D06D21100C74791 /* DemoModuleAItem.m */; };
+		FBFAE9771D069A9400E0C797 /* Connector_A.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFAE9761D069A9400E0C797 /* Connector_A.m */; };
+		FBFAE97A1D069DB800E0C797 /* DHModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFAE9791D069DB800E0C797 /* DHModuleAViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB25D9D41D05798D0046B56B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB25D9B21D05798D0046B56B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB25D9B91D05798D0046B56B;
+			remoteInfo = DHBusMediator;
+		};
+		FB25D9DF1D05798D0046B56B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB25D9B21D05798D0046B56B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB25D9B91D05798D0046B56B;
+			remoteInfo = DHBusMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB25D9BA1D05798D0046B56B /* DHBusMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHBusMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB25D9BE1D05798D0046B56B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB25D9C01D05798D0046B56B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		FB25D9C11D05798D0046B56B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		FB25D9C31D05798D0046B56B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		FB25D9C41D05798D0046B56B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		FB25D9C71D05798D0046B56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB25D9C91D05798D0046B56B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		FB25D9CC1D05798D0046B56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB25D9CE1D05798D0046B56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		FB25D9D31D05798D0046B56B /* DHBusMediatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHBusMediatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB25D9D71D05798D0046B56B /* DHBusMediatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHBusMediatorTests.m; sourceTree = "<group>"; };
+		FB25D9D91D05798D0046B56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB25D9DE1D05798D0046B56B /* DHBusMediatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHBusMediatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB25D9E21D05798D0046B56B /* DHBusMediatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHBusMediatorUITests.m; sourceTree = "<group>"; };
+		FB25D9E41D05798D0046B56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB25D9F21D05805A0046B56B /* DHBusMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBusMediator.h; sourceTree = "<group>"; };
+		FB25D9F31D05805A0046B56B /* DHBusMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHBusMediator.m; sourceTree = "<group>"; };
+		FB25D9F61D0585660046B56B /* DHBusConnectProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBusConnectProtocal.h; sourceTree = "<group>"; };
+		FB8CD94D1D06D21100C74791 /* DemoModuleAItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModuleAItem.h; sourceTree = "<group>"; };
+		FB8CD94E1D06D21100C74791 /* DemoModuleAItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModuleAItem.m; sourceTree = "<group>"; };
+		FBFAE9751D069A9400E0C797 /* Connector_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connector_A.h; sourceTree = "<group>"; };
+		FBFAE9761D069A9400E0C797 /* Connector_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connector_A.m; sourceTree = "<group>"; };
+		FBFAE9781D069DB800E0C797 /* DHModuleAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHModuleAViewController.h; sourceTree = "<group>"; };
+		FBFAE9791D069DB800E0C797 /* DHModuleAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHModuleAViewController.m; sourceTree = "<group>"; };
+		FBFAE97C1D06C65D00E0C797 /* DemoModuleAServiceProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModuleAServiceProtocal.h; sourceTree = "<group>"; };
+		FBFAE97D1D06C85D00E0C797 /* DemoModuleAItemProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModuleAItemProtocal.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB25D9B71D05798D0046B56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB25D9D01D05798D0046B56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB25D9DB1D05798D0046B56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB25D9B11D05798D0046B56B = {
+			isa = PBXGroup;
+			children = (
+				FB25D9BC1D05798D0046B56B /* DHBusMediator */,
+				FB25D9D61D05798D0046B56B /* DHBusMediatorTests */,
+				FB25D9E11D05798D0046B56B /* DHBusMediatorUITests */,
+				FB25D9BB1D05798D0046B56B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB25D9BB1D05798D0046B56B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB25D9BA1D05798D0046B56B /* DHBusMediator.app */,
+				FB25D9D31D05798D0046B56B /* DHBusMediatorTests.xctest */,
+				FB25D9DE1D05798D0046B56B /* DHBusMediatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB25D9BC1D05798D0046B56B /* DHBusMediator */ = {
+			isa = PBXGroup;
+			children = (
+				FBFAE9741D06980300E0C797 /* DemoModuleA */,
+				FB25D9F01D0579C00046B56B /* Ohter */,
+				FB25D9BD1D05798D0046B56B /* Supporting Files */,
+			);
+			path = DHBusMediator;
+			sourceTree = "<group>";
+		};
+		FB25D9BD1D05798D0046B56B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB25D9BE1D05798D0046B56B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB25D9D61D05798D0046B56B /* DHBusMediatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB25D9D71D05798D0046B56B /* DHBusMediatorTests.m */,
+				FB25D9D91D05798D0046B56B /* Info.plist */,
+			);
+			path = DHBusMediatorTests;
+			sourceTree = "<group>";
+		};
+		FB25D9E11D05798D0046B56B /* DHBusMediatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB25D9E21D05798D0046B56B /* DHBusMediatorUITests.m */,
+				FB25D9E41D05798D0046B56B /* Info.plist */,
+			);
+			path = DHBusMediatorUITests;
+			sourceTree = "<group>";
+		};
+		FB25D9F01D0579C00046B56B /* Ohter */ = {
+			isa = PBXGroup;
+			children = (
+				FB25D9C01D05798D0046B56B /* AppDelegate.h */,
+				FB25D9C11D05798D0046B56B /* AppDelegate.m */,
+				FB25D9C31D05798D0046B56B /* ViewController.h */,
+				FB25D9C41D05798D0046B56B /* ViewController.m */,
+				FB25D9C61D05798D0046B56B /* Main.storyboard */,
+				FB25D9C91D05798D0046B56B /* Assets.xcassets */,
+				FB25D9CB1D05798D0046B56B /* LaunchScreen.storyboard */,
+				FB25D9CE1D05798D0046B56B /* Info.plist */,
+			);
+			path = Ohter;
+			sourceTree = "<group>";
+		};
+		FB25D9F11D057E790046B56B /* DHBusMediator */ = {
+			isa = PBXGroup;
+			children = (
+				FB25D9F61D0585660046B56B /* DHBusConnectProtocal.h */,
+				FB25D9F21D05805A0046B56B /* DHBusMediator.h */,
+				FB25D9F31D05805A0046B56B /* DHBusMediator.m */,
+			);
+			name = DHBusMediator;
+			path = ../DHBusMediator;
+			sourceTree = "<group>";
+		};
+		FBFAE9741D06980300E0C797 /* DemoModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				FBFAE97B1D06C5E500E0C797 /* DemoModuleAProtocal */,
+				FBFAE9751D069A9400E0C797 /* Connector_A.h */,
+				FBFAE9761D069A9400E0C797 /* Connector_A.m */,
+				FB25D9F11D057E790046B56B /* DHBusMediator */,
+				FBFAE9781D069DB800E0C797 /* DHModuleAViewController.h */,
+				FBFAE9791D069DB800E0C797 /* DHModuleAViewController.m */,
+			);
+			path = DemoModuleA;
+			sourceTree = "<group>";
+		};
+		FBFAE97B1D06C5E500E0C797 /* DemoModuleAProtocal */ = {
+			isa = PBXGroup;
+			children = (
+				FBFAE97C1D06C65D00E0C797 /* DemoModuleAServiceProtocal.h */,
+				FBFAE97D1D06C85D00E0C797 /* DemoModuleAItemProtocal.h */,
+				FB8CD94D1D06D21100C74791 /* DemoModuleAItem.h */,
+				FB8CD94E1D06D21100C74791 /* DemoModuleAItem.m */,
+			);
+			path = DemoModuleAProtocal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB25D9B91D05798D0046B56B /* DHBusMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB25D9E71D05798D0046B56B /* Build configuration list for PBXNativeTarget "DHBusMediator" */;
+			buildPhases = (
+				FB25D9B61D05798D0046B56B /* Sources */,
+				FB25D9B71D05798D0046B56B /* Frameworks */,
+				FB25D9B81D05798D0046B56B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHBusMediator;
+			productName = DHBusMediator;
+			productReference = FB25D9BA1D05798D0046B56B /* DHBusMediator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB25D9D21D05798D0046B56B /* DHBusMediatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB25D9EA1D05798D0046B56B /* Build configuration list for PBXNativeTarget "DHBusMediatorTests" */;
+			buildPhases = (
+				FB25D9CF1D05798D0046B56B /* Sources */,
+				FB25D9D01D05798D0046B56B /* Frameworks */,
+				FB25D9D11D05798D0046B56B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB25D9D51D05798D0046B56B /* PBXTargetDependency */,
+			);
+			name = DHBusMediatorTests;
+			productName = DHBusMediatorTests;
+			productReference = FB25D9D31D05798D0046B56B /* DHBusMediatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB25D9DD1D05798D0046B56B /* DHBusMediatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB25D9ED1D05798D0046B56B /* Build configuration list for PBXNativeTarget "DHBusMediatorUITests" */;
+			buildPhases = (
+				FB25D9DA1D05798D0046B56B /* Sources */,
+				FB25D9DB1D05798D0046B56B /* Frameworks */,
+				FB25D9DC1D05798D0046B56B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB25D9E01D05798D0046B56B /* PBXTargetDependency */,
+			);
+			name = DHBusMediatorUITests;
+			productName = DHBusMediatorUITests;
+			productReference = FB25D9DE1D05798D0046B56B /* DHBusMediatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB25D9B21D05798D0046B56B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "胡大海";
+				TargetAttributes = {
+					FB25D9B91D05798D0046B56B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FB25D9D21D05798D0046B56B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FB25D9B91D05798D0046B56B;
+					};
+					FB25D9DD1D05798D0046B56B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FB25D9B91D05798D0046B56B;
+					};
+				};
+			};
+			buildConfigurationList = FB25D9B51D05798D0046B56B /* Build configuration list for PBXProject "DHBusMediator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB25D9B11D05798D0046B56B;
+			productRefGroup = FB25D9BB1D05798D0046B56B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB25D9B91D05798D0046B56B /* DHBusMediator */,
+				FB25D9D21D05798D0046B56B /* DHBusMediatorTests */,
+				FB25D9DD1D05798D0046B56B /* DHBusMediatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB25D9B81D05798D0046B56B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB25D9CD1D05798D0046B56B /* LaunchScreen.storyboard in Resources */,
+				FB25D9CA1D05798D0046B56B /* Assets.xcassets in Resources */,
+				FB25D9C81D05798D0046B56B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB25D9D11D05798D0046B56B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB25D9DC1D05798D0046B56B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB25D9B61D05798D0046B56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB25D9C51D05798D0046B56B /* ViewController.m in Sources */,
+				FB25D9F41D05805A0046B56B /* DHBusMediator.m in Sources */,
+				FBFAE97A1D069DB800E0C797 /* DHModuleAViewController.m in Sources */,
+				FB25D9C21D05798D0046B56B /* AppDelegate.m in Sources */,
+				FBFAE9771D069A9400E0C797 /* Connector_A.m in Sources */,
+				FB8CD94F1D06D21100C74791 /* DemoModuleAItem.m in Sources */,
+				FB25D9BF1D05798D0046B56B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB25D9CF1D05798D0046B56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB25D9D81D05798D0046B56B /* DHBusMediatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB25D9DA1D05798D0046B56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB25D9E31D05798D0046B56B /* DHBusMediatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB25D9D51D05798D0046B56B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB25D9B91D05798D0046B56B /* DHBusMediator */;
+			targetProxy = FB25D9D41D05798D0046B56B /* PBXContainerItemProxy */;
+		};
+		FB25D9E01D05798D0046B56B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB25D9B91D05798D0046B56B /* DHBusMediator */;
+			targetProxy = FB25D9DF1D05798D0046B56B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB25D9C61D05798D0046B56B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB25D9C71D05798D0046B56B /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FB25D9CB1D05798D0046B56B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB25D9CC1D05798D0046B56B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB25D9E51D05798D0046B56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB25D9E61D05798D0046B56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB25D9E81D05798D0046B56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DHBusMediator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenggr.com.DHBusMediator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB25D9E91D05798D0046B56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DHBusMediator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenggr.com.DHBusMediator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB25D9EB1D05798D0046B56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DHBusMediatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenggr.com.DHBusMediatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHBusMediator.app/DHBusMediator";
+			};
+			name = Debug;
+		};
+		FB25D9EC1D05798D0046B56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DHBusMediatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenggr.com.DHBusMediatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHBusMediator.app/DHBusMediator";
+			};
+			name = Release;
+		};
+		FB25D9EE1D05798D0046B56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DHBusMediatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenggr.com.DHBusMediatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DHBusMediator;
+			};
+			name = Debug;
+		};
+		FB25D9EF1D05798D0046B56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DHBusMediatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenggr.com.DHBusMediatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DHBusMediator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB25D9B51D05798D0046B56B /* Build configuration list for PBXProject "DHBusMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB25D9E51D05798D0046B56B /* Debug */,
+				FB25D9E61D05798D0046B56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB25D9E71D05798D0046B56B /* Build configuration list for PBXNativeTarget "DHBusMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB25D9E81D05798D0046B56B /* Debug */,
+				FB25D9E91D05798D0046B56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB25D9EA1D05798D0046B56B /* Build configuration list for PBXNativeTarget "DHBusMediatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB25D9EB1D05798D0046B56B /* Debug */,
+				FB25D9EC1D05798D0046B56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB25D9ED1D05798D0046B56B /* Build configuration list for PBXNativeTarget "DHBusMediatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB25D9EE1D05798D0046B56B /* Debug */,
+				FB25D9EF1D05798D0046B56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB25D9B21D05798D0046B56B /* Project object */;
+}
