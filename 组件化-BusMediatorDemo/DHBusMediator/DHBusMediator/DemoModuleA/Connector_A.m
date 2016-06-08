@@ -72,6 +72,7 @@
         
         if (params[@"key"]) {
             viewController.valueLabel.text = params[@"key"];
+            [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:viewController animated:YES completion:nil];
         }
         
         if(params[@"image"]) {
@@ -86,7 +87,6 @@
         } else {
             viewController.valueLabel.text = @"no image";
             viewController.imageView.image = [UIImage imageNamed:@"noImage"];
-            [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:viewController animated:YES completion:nil];
         }
         
         return viewController;

@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		FB25D9BF1D05798D0046B56B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D9BE1D05798D0046B56B /* main.m */; };
-		FB25D9C21D05798D0046B56B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D9C11D05798D0046B56B /* AppDelegate.m */; };
-		FB25D9C51D05798D0046B56B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D9C41D05798D0046B56B /* ViewController.m */; };
 		FB25D9C81D05798D0046B56B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB25D9C61D05798D0046B56B /* Main.storyboard */; };
-		FB25D9CA1D05798D0046B56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB25D9C91D05798D0046B56B /* Assets.xcassets */; };
 		FB25D9CD1D05798D0046B56B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB25D9CB1D05798D0046B56B /* LaunchScreen.storyboard */; };
 		FB25D9D81D05798D0046B56B /* DHBusMediatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D9D71D05798D0046B56B /* DHBusMediatorTests.m */; };
 		FB25D9E31D05798D0046B56B /* DHBusMediatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D9E21D05798D0046B56B /* DHBusMediatorUITests.m */; };
 		FB25D9F41D05805A0046B56B /* DHBusMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D9F31D05805A0046B56B /* DHBusMediator.m */; };
+		FB8A97E41D07BF2D00CDFB4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8A97DF1D07BF2D00CDFB4C /* AppDelegate.m */; };
+		FB8A97E51D07BF2D00CDFB4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8A97E01D07BF2D00CDFB4C /* Assets.xcassets */; };
+		FB8A97E61D07BF2D00CDFB4C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB8A97E11D07BF2D00CDFB4C /* Info.plist */; };
+		FB8A97E71D07BF2D00CDFB4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8A97E31D07BF2D00CDFB4C /* ViewController.m */; };
 		FB8CD94F1D06D21100C74791 /* DemoModuleAItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8CD94E1D06D21100C74791 /* DemoModuleAItem.m */; };
 		FBFAE9771D069A9400E0C797 /* Connector_A.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFAE9761D069A9400E0C797 /* Connector_A.m */; };
 		FBFAE97A1D069DB800E0C797 /* DHModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFAE9791D069DB800E0C797 /* DHModuleAViewController.m */; };
@@ -41,14 +42,8 @@
 /* Begin PBXFileReference section */
 		FB25D9BA1D05798D0046B56B /* DHBusMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHBusMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB25D9BE1D05798D0046B56B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FB25D9C01D05798D0046B56B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
-		FB25D9C11D05798D0046B56B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
-		FB25D9C31D05798D0046B56B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
-		FB25D9C41D05798D0046B56B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		FB25D9C71D05798D0046B56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FB25D9C91D05798D0046B56B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		FB25D9CC1D05798D0046B56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FB25D9CE1D05798D0046B56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		FB25D9D31D05798D0046B56B /* DHBusMediatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHBusMediatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB25D9D71D05798D0046B56B /* DHBusMediatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHBusMediatorTests.m; sourceTree = "<group>"; };
 		FB25D9D91D05798D0046B56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +53,12 @@
 		FB25D9F21D05805A0046B56B /* DHBusMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBusMediator.h; sourceTree = "<group>"; };
 		FB25D9F31D05805A0046B56B /* DHBusMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHBusMediator.m; sourceTree = "<group>"; };
 		FB25D9F61D0585660046B56B /* DHBusConnectProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBusConnectProtocal.h; sourceTree = "<group>"; };
+		FB8A97DE1D07BF2D00CDFB4C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DHBusMediator/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		FB8A97DF1D07BF2D00CDFB4C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DHBusMediator/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		FB8A97E01D07BF2D00CDFB4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DHBusMediator/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		FB8A97E11D07BF2D00CDFB4C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DHBusMediator/Info.plist; sourceTree = SOURCE_ROOT; };
+		FB8A97E21D07BF2D00CDFB4C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = DHBusMediator/ViewController.h; sourceTree = SOURCE_ROOT; };
+		FB8A97E31D07BF2D00CDFB4C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = DHBusMediator/ViewController.m; sourceTree = SOURCE_ROOT; };
 		FB8CD94D1D06D21100C74791 /* DemoModuleAItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModuleAItem.h; sourceTree = "<group>"; };
 		FB8CD94E1D06D21100C74791 /* DemoModuleAItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModuleAItem.m; sourceTree = "<group>"; };
 		FBFAE9751D069A9400E0C797 /* Connector_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connector_A.h; sourceTree = "<group>"; };
@@ -152,14 +153,14 @@
 		FB25D9F01D0579C00046B56B /* Ohter */ = {
 			isa = PBXGroup;
 			children = (
-				FB25D9C01D05798D0046B56B /* AppDelegate.h */,
-				FB25D9C11D05798D0046B56B /* AppDelegate.m */,
-				FB25D9C31D05798D0046B56B /* ViewController.h */,
-				FB25D9C41D05798D0046B56B /* ViewController.m */,
+				FB8A97DE1D07BF2D00CDFB4C /* AppDelegate.h */,
+				FB8A97DF1D07BF2D00CDFB4C /* AppDelegate.m */,
+				FB8A97E01D07BF2D00CDFB4C /* Assets.xcassets */,
+				FB8A97E11D07BF2D00CDFB4C /* Info.plist */,
+				FB8A97E21D07BF2D00CDFB4C /* ViewController.h */,
+				FB8A97E31D07BF2D00CDFB4C /* ViewController.m */,
 				FB25D9C61D05798D0046B56B /* Main.storyboard */,
-				FB25D9C91D05798D0046B56B /* Assets.xcassets */,
 				FB25D9CB1D05798D0046B56B /* LaunchScreen.storyboard */,
-				FB25D9CE1D05798D0046B56B /* Info.plist */,
 			);
 			path = Ohter;
 			sourceTree = "<group>";
@@ -303,7 +304,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB25D9CD1D05798D0046B56B /* LaunchScreen.storyboard in Resources */,
-				FB25D9CA1D05798D0046B56B /* Assets.xcassets in Resources */,
+				FB8A97E51D07BF2D00CDFB4C /* Assets.xcassets in Resources */,
+				FB8A97E61D07BF2D00CDFB4C /* Info.plist in Resources */,
 				FB25D9C81D05798D0046B56B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,10 +331,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB25D9C51D05798D0046B56B /* ViewController.m in Sources */,
+				FB8A97E71D07BF2D00CDFB4C /* ViewController.m in Sources */,
 				FB25D9F41D05805A0046B56B /* DHBusMediator.m in Sources */,
 				FBFAE97A1D069DB800E0C797 /* DHModuleAViewController.m in Sources */,
-				FB25D9C21D05798D0046B56B /* AppDelegate.m in Sources */,
+				FB8A97E41D07BF2D00CDFB4C /* AppDelegate.m in Sources */,
 				FBFAE9771D069A9400E0C797 /* Connector_A.m in Sources */,
 				FB8CD94F1D06D21100C74791 /* DemoModuleAItem.m in Sources */,
 				FB25D9BF1D05798D0046B56B /* main.m in Sources */,

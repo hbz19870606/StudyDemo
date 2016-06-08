@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DHBusMediator/DemoModuleA/Connector_A.m"
-            timestampString = "486986475.602982"
+            timestampString = "487046971.325533"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
             landmarkName = "-connectToOpenURL:params:"
             landmarkType = "5">
          </BreakpointContent>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DHBusMediator/DemoModuleA/Connector_A.m"
-            timestampString = "486986475.602982"
+            timestampString = "487046971.325533"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
             landmarkName = "-connectToOpenURL:params:"
             landmarkType = "5">
          </BreakpointContent>
@@ -122,45 +122,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DHBusMediator/ViewController.m"
-            timestampString = "486986824.759667"
+            timestampString = "487047166.937394"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ViewController tableView:didSelectRowAtIndexPath:]"
-                  moduleName = "DHBusMediator"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hudahai/Desktop/brooke/%E7%BB%84%E4%BB%B6%E5%8C%96-BusMediatorDemo/DHBusMediator/DHBusMediator/ViewController.m"
-                  timestampString = "486986958.356565"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60"
-                  offsetFromSymbolStart = "363">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__52-[ViewController tableView:didSelectRowAtIndexPath:]_block_invoke"
-                  moduleName = "DHBusMediator"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hudahai/Desktop/brooke/%E7%BB%84%E4%BB%B6%E5%8C%96-BusMediatorDemo/DHBusMediator/DHBusMediator/ViewController.m"
-                  timestampString = "486986958.356685"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "61"
-                  endingLineNumber = "61"
-                  offsetFromSymbolStart = "51">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

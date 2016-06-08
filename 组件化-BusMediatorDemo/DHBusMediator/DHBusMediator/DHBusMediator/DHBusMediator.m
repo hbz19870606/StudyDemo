@@ -92,8 +92,26 @@ static NSMutableDictionary<NSString *, id<DHBusConnectProtocal>> *g_connectorMap
     return success;
 }
 
+
++(nullable UIViewController *)viewControllerForURL:(nonnull NSURL *)URL {
+    return [self viewControllerForURL:URL withParameters:nil];
+}
+
 +(nullable UIViewController *)viewControllerForURL:(nonnull NSURL *)URL withParameters:(nullable NSDictionary *)params {
-    return nil;
+    __block UIViewController *returnObj = nil;
+    __block int queryCount = 0;
+    NSDictionary *userParams = [self userParametersWithURL:URL andParameters:params];
+    [g_connectorMap enumerateKeysAndObjectsWithOptions:NSEnumerationReverse usingBlock:^(NSString * _Nonnull key, id<DHBusConnectProtocal>  _Nonnull connector, BOOL * _Nonnull stop) {
+        queryCount++;
+        if([connector respondsToSelector:@selector(connectToOpenURL:params:)]){
+            returnObj = [connector connectToOpenURL:URL params:userParams];
+            if(returnObj && [returnObj isKindOfClass:[UIViewController class]]){
+                *stop = YES;
+            }
+        }
+    }];
+    
+    return returnObj;
 }
 
 +(nullable id)serviceForProtocol:(nonnull Protocol *)protocol {
@@ -110,11 +128,6 @@ static NSMutableDictionary<NSString *, id<DHBusConnectProtocal>> *g_connectorMap
     }];
     
     return returnServiceImp;
-}
-
-
-+(nullable UIViewController *)viewControllerForURL:(nonnull NSURL *)URL {
-    return nil;
 }
 
 /**

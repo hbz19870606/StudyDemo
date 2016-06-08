@@ -55,14 +55,20 @@
                 [DHBusMediator routeURL:[NSURL URLWithString:@"appBusMediator://ADetail"] withParameters:@{@"key":@"label content"}];
             }
             break;
-        case 4:
+        case 1:
+            {
+                UIViewController* viewController = [DHBusMediator viewControllerForURL:[NSURL URLWithString:@"appBusMediator://ADetail"] withParameters:nil];
+                [self.navigationController pushViewController:viewController animated:YES];
+            }
+            break;
+        case 2:
             {
                 [[DHBusMediator serviceForProtocol:@protocol(DemoModuleAServiceProtocal)] moduleA_showAlertWithMessage:@"brooke" cancelAction:nil confirmAction:^(NSDictionary * _Nonnull info) {
                     NSLog(@"%@", info);
                 }];
             }
             break;
-        case 5:
+        case 3:
             {
                 id <DemoModuleAItemProtocal> item = [[DHBusMediator serviceForProtocol:@protocol(DemoModuleAServiceProtocal)] moduleA_getItemWithName:@"brooke" age:29];
                 
@@ -78,7 +84,7 @@
 - (NSArray *)dataSource
 {
     if (!_dataSource) {
-        _dataSource = @[@"present detail view controller", @"push detail view controller", @"present image", @"present image when error", @"service: show alert", @"service:get protcol model", @"service: set protocol model", @"get url controller", @"route url with hook", @"route url not found"];
+        _dataSource = @[@"present detail view controller", @"push detail view controller", @"service: show alert", @"service:get protcol model"];
     }
     return _dataSource;
 }
