@@ -17,5 +17,6 @@ AOP-统计打点：http://ios.jobbole.com/82405/
 UI一像素： http://ios.jobbole.com/82112/
 
 Cocoapods创建私有podspec http://blog.wtlucky.com/blog/2015/02/26/create-private-podspec/
+                         http://www.jianshu.com/p/ddc2490bff9f
                           
 阿里技术沙龙视频：http://club.alibabatech.org/resource_detail.htm?topicId=153
