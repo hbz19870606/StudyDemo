@@ -4,6 +4,8 @@ LDBusMediator =====   http://ios.jobbole.com/85445/
 
 组件化汇总解析：  http://www.cnblogs.com/fengmin/p/5507790.html
 
+架构：https://touchspring.gitbooks.io/document/content/index.html
+
 逆向工程，微信自动抢红包：http://ios.jobbole.com/84468/
 
 app性能分析方法： http://ios.jobbole.com/84380/
