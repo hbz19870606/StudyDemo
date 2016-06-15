@@ -33,3 +33,5 @@ google插件：  http://stormzhang.com/devtools/2016/01/15/google-chrome-extensi
 
 iOS删除工程无用图片方法整理 http://www.jianshu.com/p/17721719dfee
 压缩图片：   http://iosapp.me/blog/2014/03/27/imageoptim/             http://blog.devtang.com/2014/06/29/ios-dev-tools/
+
+ipa瘦身：  http://www.jianshu.com/p/a72d03e92c80
