@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">
+          
+function GetCookie(name) {
+        var arg = name + "=";
+        var alen = arg.length;
+        var clen = document.cookie.length;
+        var i = 0;
+        while (i < clen) {
+            var j = i + alen;
+            alert(j);
+            if (document.cookie.substring(i, j) == arg) return getCookieVal(j);
+            i = document.cookie.indexOf(" ", i) + 1;
+            if (i == 0) break;
+        }
+        return null;
+    }
+
+ function showAlert() {
+     var message = getCookie();
+            alert(message);
+         }
+
+ function locationAcitve(myMessage) {
+     var message = getCookie();
+     var keyMessage = myMessage +":" + message;
+       alert('唤起原生 + keyMessage');
+     location.href = keyMessage;
+         }
+
+unction location() {
+     location.href = "FJRSafari123";
+         }
+        </script>
+
+        <style> 
+.a{margin:0 auto;}
+.c{width:320px;height:auto;overflow:auto;background:#0DA3B0;margin:0 auto;}
+
+</style> 
+    </head>
+
+    <body>
+
+    <div class="c">
+        <h2 class="a"> safari取cookie </h2>
+        <br/>
+        <br/>
+     <button type="button" onclick="showAlert()">点我获取cookie</button>
+        <br/>
+        <br/>
+     <button type="button2" onclick="locationAcitve('FJRSafari123')">唤起原生</button>
+        <br/>
+        <br/>
+     <button type="button3" onclick="location()">点我</button>
+</div>
+    </body>
+</html>
