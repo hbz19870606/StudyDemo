@@ -38,3 +38,9 @@ iOS删除工程无用图片方法整理 http://www.jianshu.com/p/17721719dfee
 压缩图片：   http://iosapp.me/blog/2014/03/27/imageoptim/             http://blog.devtang.com/2014/06/29/ios-dev-tools/
 
 ipa瘦身：  http://www.jianshu.com/p/a72d03e92c80
+
+ios界面保持流畅的技巧：https://gold.xitu.io/entry/564c31c860b2260e5bb03d12
+
+RUNLoop底层详解：http://blog.ibireme.com/2015/05/18/runloop/
+
+YYKit作者博客地址：http://blog.ibireme.com/
