@@ -1,0 +1,28 @@
+platform :ios, "7.1"
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+# 忽略三方库警告
+inhibit_all_warnings!
+
+def public_pods
+    # 网络请求
+    pod 'AFNetworking', '~> 3.1.0'
+    
+    #图片加载
+    pod 'SDWebImage', '~> 3.7.4’
+    
+    # 简化自动布局的使用
+    pod 'Masonry', '0.6.2'
+    
+    #模型转换
+    pod 'MJExtension', '~> 3.0.13'
+    
+end
+
+target ‘DHPlayRoomDemo’ do
+
+    public_pods
+
+end
+
