@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8B9189959B8A5BA4E033C49B /* libPods-DHPlayRoomDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 911E57CC78F964647F989EE7 /* libPods-DHPlayRoomDemo.a */; };
-		FBB83B971E4AF54200F3DD4C /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB83B961E4AF54200F3DD4C /* IJKMediaFramework.framework */; };
+		FB6414301E4C493800A9E018 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB64142F1E4C493800A9E018 /* IJKMediaFramework.framework */; };
 		FBB83B9C1E4AF7BD00F3DD4C /* OtherRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB83B9B1E4AF7BD00F3DD4C /* OtherRoomViewController.m */; };
 		FBB83B9F1E4AFD1800F3DD4C /* OtherRoomLiveItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB83B9E1E4AFD1800F3DD4C /* OtherRoomLiveItem.m */; };
 		FBB83BA21E4AFD3900F3DD4C /* OtherRoomLiverInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB83BA11E4AFD3900F3DD4C /* OtherRoomLiverInfo.m */; };
 		FBB83BA51E4B008400F3DD4C /* OtherRoomLiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB83BA41E4B008400F3DD4C /* OtherRoomLiveTableViewCell.m */; };
 		FBB83BA91E4B10D500F3DD4C /* RoomPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB83BA81E4B10D500F3DD4C /* RoomPlayViewController.m */; };
+		FBB83BAC1E4B386100F3DD4C /* MyRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB83BAB1E4B386100F3DD4C /* MyRoomViewController.m */; };
 		FBC43C991E49AC7F00E0B4F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC43C981E49AC7F00E0B4F0 /* main.m */; };
 		FBC43C9C1E49AC7F00E0B4F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC43C9B1E49AC7F00E0B4F0 /* AppDelegate.m */; };
 		FBC43C9F1E49AC8000E0B4F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC43C9E1E49AC8000E0B4F0 /* ViewController.m */; };
@@ -54,7 +55,7 @@
 /* Begin PBXFileReference section */
 		2027E2AE0ACCC220FD768ABF /* Pods-DHPlayRoomDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHPlayRoomDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHPlayRoomDemo/Pods-DHPlayRoomDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		911E57CC78F964647F989EE7 /* libPods-DHPlayRoomDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHPlayRoomDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBB83B961E4AF54200F3DD4C /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		FB64142F1E4C493800A9E018 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		FBB83B9A1E4AF7BD00F3DD4C /* OtherRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherRoomViewController.h; sourceTree = "<group>"; };
 		FBB83B9B1E4AF7BD00F3DD4C /* OtherRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherRoomViewController.m; sourceTree = "<group>"; };
 		FBB83B9D1E4AFD1800F3DD4C /* OtherRoomLiveItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherRoomLiveItem.h; sourceTree = "<group>"; };
@@ -65,6 +66,8 @@
 		FBB83BA41E4B008400F3DD4C /* OtherRoomLiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherRoomLiveTableViewCell.m; sourceTree = "<group>"; };
 		FBB83BA71E4B10D400F3DD4C /* RoomPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomPlayViewController.h; sourceTree = "<group>"; };
 		FBB83BA81E4B10D500F3DD4C /* RoomPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomPlayViewController.m; sourceTree = "<group>"; };
+		FBB83BAA1E4B386100F3DD4C /* MyRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRoomViewController.h; sourceTree = "<group>"; };
+		FBB83BAB1E4B386100F3DD4C /* MyRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRoomViewController.m; sourceTree = "<group>"; };
 		FBC43C941E49AC7F00E0B4F0 /* DHPlayRoomDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHPlayRoomDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC43C981E49AC7F00E0B4F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FBC43C9A1E49AC7F00E0B4F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,7 +105,7 @@
 				FBC43CE01E49B75500E0B4F0 /* VideoToolbox.framework in Frameworks */,
 				FBC43CDF1E49B74800E0B4F0 /* OpenGLES.framework in Frameworks */,
 				FBC43CDE1E49B73D00E0B4F0 /* MobileCoreServices.framework in Frameworks */,
-				FBB83B971E4AF54200F3DD4C /* IJKMediaFramework.framework in Frameworks */,
+				FB6414301E4C493800A9E018 /* IJKMediaFramework.framework in Frameworks */,
 				FBC43CDC1E49B73300E0B4F0 /* MediaPlayer.framework in Frameworks */,
 				FBC43CDA1E49B72800E0B4F0 /* libz.tbd in Frameworks */,
 				FBC43CD81E49B71B00E0B4F0 /* libbz2.tbd in Frameworks */,
@@ -143,6 +146,8 @@
 		FBB83B981E4AF74F00F3DD4C /* MyRoom */ = {
 			isa = PBXGroup;
 			children = (
+				FBB83BAA1E4B386100F3DD4C /* MyRoomViewController.h */,
+				FBB83BAB1E4B386100F3DD4C /* MyRoomViewController.m */,
 			);
 			path = MyRoom;
 			sourceTree = "<group>";
@@ -242,7 +247,7 @@
 		FBC43CCA1E49B69F00E0B4F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FBB83B961E4AF54200F3DD4C /* IJKMediaFramework.framework */,
+				FB64142F1E4C493800A9E018 /* IJKMediaFramework.framework */,
 				FBC43CDD1E49B73D00E0B4F0 /* MobileCoreServices.framework */,
 				FBC43CDB1E49B73300E0B4F0 /* MediaPlayer.framework */,
 				FBC43CD91E49B72800E0B4F0 /* libz.tbd */,
@@ -447,6 +452,7 @@
 			files = (
 				FBB83BA21E4AFD3900F3DD4C /* OtherRoomLiverInfo.m in Sources */,
 				FBC43C9F1E49AC8000E0B4F0 /* ViewController.m in Sources */,
+				FBB83BAC1E4B386100F3DD4C /* MyRoomViewController.m in Sources */,
 				FBB83B9F1E4AFD1800F3DD4C /* OtherRoomLiveItem.m in Sources */,
 				FBB83BA51E4B008400F3DD4C /* OtherRoomLiveTableViewCell.m in Sources */,
 				FBC43C9C1E49AC7F00E0B4F0 /* AppDelegate.m in Sources */,
@@ -607,6 +613,7 @@
 					"$(PROJECT_DIR)/DHPlayRoomDemo",
 				);
 				INFOPLIST_FILE = DHPlayRoomDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dahai.hu.DHPlayRoomDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -625,6 +632,7 @@
 					"$(PROJECT_DIR)/DHPlayRoomDemo",
 				);
 				INFOPLIST_FILE = DHPlayRoomDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dahai.hu.DHPlayRoomDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

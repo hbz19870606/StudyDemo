@@ -14,6 +14,8 @@
 
 #import "OtherRoomViewController.h"
 
+#import "MyRoomViewController.h"
+
 @interface ViewController ()
 
 @property (nonatomic, strong) UIButton* captureBtn;
@@ -47,7 +49,9 @@
 
 - (void)myPlayRoom
 {
+    MyRoomViewController* myRoomVC = [MyRoomViewController new];
     
+    [self.navigationController pushViewController:myRoomVC animated:YES];
 }
 
 - (void)othersPlayRoom
