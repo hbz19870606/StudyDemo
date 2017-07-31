@@ -1,3 +1,5 @@
+京东组件化管理：https://mp.weixin.qq.com/s/AzbK8oynTVnsawlg5iT0bg
+
 组件化：
 Syline:==== https://skyline75489.github.io/post/2016-3-19_ios_modularization_practice.html
 case ====   http://casatwy.com/iOS-Modulization.html
