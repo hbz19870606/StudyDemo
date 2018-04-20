@@ -1,3 +1,5 @@
+三方列表：https://blog.csdn.net/jiashaoying/article/details/79079500
+
 京东组件化管理：https://mp.weixin.qq.com/s/AzbK8oynTVnsawlg5iT0bg
 
 组件化：
